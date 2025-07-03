@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Conversor de Moedas</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 500px; margin: 20px auto; }
+  label, select, input, button { display: block; margin: 10px 0; width: 100%; }
+  #resultado { margin-top: 20px; font-weight: bold; }
+  #historico { margin-top: 20px; border-collapse: collapse; width: 100%; }
+  #historico th, #historico td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Conversor de Moedas</h1>
+
+<label for="moedaBase">Moeda Base:</label>
+<select id="moedaBase"></select>
+
+<label for="moedaDestino">Moeda Destino:</label>
+<select id="moedaDestino"></select>
+
+<label for="valor">Valor:</label>
+<input type="number" id="valor" placeholder="Digite o valor" />
+
+<button id="btnConverter">Converter</button>
+<button id="btnAtualizar">Atualizar Taxas</button>
+
+<div id="resultado"></div>
+
+<h2>Histórico</h2>
+<table id="historico">
+  <thead>
+    <tr><th>Valor</th><th>De</th><th>Convertido</th><th>Para</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
