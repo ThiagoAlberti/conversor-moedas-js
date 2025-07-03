@@ -12,11 +12,6 @@ Um simples e moderno conversor de moedas feito com **HTML**, **CSS** e **JavaScr
 - Histórico de conversões exibido em tabela
 - Sem necessidade de chave de API
 
----
-
-## 📸 Preview
-
-![Preview](preview.png) <!-- Você pode adicionar uma imagem de exemplo aqui se quiser -->
 
 ---
 
@@ -27,7 +22,12 @@ Um simples e moderno conversor de moedas feito com **HTML**, **CSS** e **JavaScr
    git clone https://github.com/seu-usuario/conversor-moedas-js.git
 2. Abra o arquivo index.html no navegador
 
+
 -Ou abra no VS Code e use a extensão Live Server para testar localmente
+
+
+---
+
 
 🛠 Tecnologias Utilizadas
 . HTML5
@@ -38,14 +38,28 @@ Um simples e moderno conversor de moedas feito com **HTML**, **CSS** e **JavaScr
 
 . ExchangeRate API
 
+
+---
+
+
+
 💡 Exemplo de API usada
 Endpoint:
 
 https://open.er-api.com/v6/latest/USD
+
 Retorna todas as taxas de câmbio em relação ao dólar americano (ou outra moeda base).
+
+
+---
+
 
 📜 Licença
 Este projeto está sob a licença MIT.
+
+
+---
+
 
 🤝 Contribuições
 Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias!
