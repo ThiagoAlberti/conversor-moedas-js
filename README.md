@@ -19,7 +19,7 @@ Um simples e moderno conversor de moedas feito com **HTML**, **CSS** e **JavaScr
 
 1. **Clone este repositório** ou baixe os arquivos:
    ```bash
-   git clone https://github.com/seu-usuario/conversor-moedas-js.git
+   git clone https://github.com/thiagoalberti/conversor-moedas-js.git
 2. Abra o arquivo index.html no navegador
 
 
